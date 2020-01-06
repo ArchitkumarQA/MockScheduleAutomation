@@ -28,7 +28,7 @@ public class TestCase {
 	{
 		log.login();
 		Assert.assertEquals(log.verify_if_successfull_login(), "Instructor Resource Center");
-		System.out.println("Successfull login");
+		System.out.println("Successfull-login");
 		b.closeup();
 	}
 }
